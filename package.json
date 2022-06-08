@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Santiago Salamanca's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salacodigo/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "forntend",
+    "backend"
+  ],
+  "author": "Santiago Salamanca [salacodigo]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salacodigo/portfolio/issues"
+  },
+  "homepage": "https://github.com/Salacodigo/portfolio#readme"
+}
