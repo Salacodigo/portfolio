@@ -1,0 +1,15 @@
+// Imports
+@import 'modules/variables';
+@import 'modules/nav';
+@import 'modules/about_me';
+@import 'modules/skills';
+@import 'modules/projects';
+@import 'modules/certifications';
+@import 'modules/footer';
+
+*{
+    background-color: white;
+}
+.title {
+    font-weight: bold;
+}
