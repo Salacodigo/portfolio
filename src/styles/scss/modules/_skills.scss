@@ -1,0 +1,46 @@
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .subtitle{
+        margin: 25px;
+    }
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+
+    .skill-container-list{
+        display: flex;
+        flex-direction: row;
+        
+        .card{
+            margin: 20px 10px;
+            width: 50%;
+            border: 0.5px solid $dark-blue;
+            border-radius: 5px;
+            padding: 20px 10px;
+
+            .skills-title{
+                font-weight: 700;
+            }
+
+            .skills-list{
+                list-style: none;
+                flex-wrap: wrap;
+
+                li{
+                    margin: 5px 0px 14px;
+                }
+            }
+        }
+    }
+    .p-container{
+        margin: 0px 25px 10px;
+        line-height: 1.5rem;
+    }
+}

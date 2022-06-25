@@ -24,7 +24,6 @@
         min-width: $mobile-size;
         max-width: $mobile-medium-size;
         background-color: $white;
-        font-family: $font-Lato;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
@@ -36,6 +35,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-family: $font-Lato;
 
         .title{
             display: flex;
