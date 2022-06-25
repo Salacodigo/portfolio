@@ -1,0 +1,32 @@
+.section-container{
+    display: flex;
+    flex-direction: column;
+
+    .subtitle{
+        margin: 25px;
+    }
+
+    .certification-container{
+        margin: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        row-gap: 15px;
+
+
+        .project-card{
+            border: $test;
+            height: 100px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            &~:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+}
