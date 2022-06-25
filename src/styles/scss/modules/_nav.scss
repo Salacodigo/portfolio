@@ -1,3 +1,11 @@
-.danger{
-    background-color: red;
+@media (min-width:$mobile-size){
+    
+    .header{
+        border: $test;
+        display: flex;
+        width: 100%;
+        
+        
+
+    }
 }

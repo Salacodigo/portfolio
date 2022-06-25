@@ -1,3 +1,47 @@
-.danger{
-    background-color: red;
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    .flags-container{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 20px 0px;
+        
+        
+        
+        .img-container{
+            object-fit: cover;
+            width: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        
+            
+            .EEUUFlag{
+                width: 100%;
+            }
+            .ColombiaFlag{
+                width: 100%;
+            }
+        }
+    }  
+
+    .figure-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        width: 180px;
+        
+        .profile-photo{
+            width: 100%;
+            border-radius: 100px;
+        }
+    }
 }

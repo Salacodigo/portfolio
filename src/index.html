@@ -6,47 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles/build/css/index.css">
+    <script src="https://kit.fontawesome.com/980b3d4086.js" crossorigin="anonymous"></script>
 </head>
-<body class="light-background text-gray">
-    <header>
-        <nav>
-            <ul>
-                <li>About me</li>
-                <li>Skills</li>
-                <li>Personal Projects</li>
-                <li>Certifications</li>
-                <li>Contact</li>
-            </ul>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="home-button">
+                    <a href="#home">Home</a>
+                </div>
+                <div class="menu-box">
+                    <input type="checkbox" id="menu-drop">
+                    <label for="menu-drop" class="label-menu">
+                        <span class="menu-bar">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                        <span class="menu-x">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </label>
+                    <div class="list-container">
+                        <a href="#" class="list-item">About me</a>
+                        <a href="#" class="list-item">Skills</a>
+                        <a href="#" class="list-item">Personal Projects</a>
+                        <a href="#" class="list-item">Certifications</a>
+                        <a href="#" class="list-item">Contact</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
+    <main class="body">
         <h1 class="title">Santiago Salamanca</h1>
         <!-- ABOUT ME -->
-        <section>
+        <section class="section-container about">
             <p>Bilingual fullstack web developer.</p>
-            <p>Based in Bogotá, Colombia. Timezone GMT -5.</p>
+            <p>Based in Bogotá, Colombia. </p>
+            <p>Timezone GMT -5.</p>
             <!-- LANGUAJES -->
-            <ul>
-                <li>
-                    <div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/684px-Flag_of_the_United_States.svg.png" alt="English Speaker. EEUU flag.">
-                    </div>
-                    <div>
-                        <p>English</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/540px-Flag_of_Colombia.svg.png" alt="Spanish Speaker. Colombia flag.">
-                    </div>
-                    <div>
-                        <p>Spanish</p>
-                    </div>
-                </li>
-            </ul>
-            <figure>
-                <img src="https://avatars.githubusercontent.com/u/62408337?v=4" alt="Santiago Salamanca's profile picture">
+            <p>Languages</p>
+            
+            <div class="flags-container">
+
+                <div class="img-container">
+                    <img class="EEUUFlag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/684px-Flag_of_the_United_States.svg.png" alt="English Speaker. EEUU flag.">
+                </div>
+                
+                <div class="img-container">
+                    <img class="ColombiaFlag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/540px-Flag_of_Colombia.svg.png" alt="Spanish Speaker. Colombia flag.">
+                </div>
+
+            </div>
+            
+            <figure class="figure-container">
+                <img class="profile-photo" src="https://avatars.githubusercontent.com/u/62408337?v=4" alt="Santiago Salamanca's profile picture">
             </figure>
         </section>
             <!-- SKILLS -->
