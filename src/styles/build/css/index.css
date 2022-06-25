@@ -129,8 +129,25 @@
   text-align: center;
 }
 
-.danger {
-  background-color: red;
+.footer {
+  margin: 0;
+  width: 100%;
+  background-color: #14223d;
+  color: #f4a912;
+  display: flex;
+  flex-direction: column;
+}
+.footer .subtitle {
+  margin: 10px;
+}
+.footer .contact-container {
+  display: flex;
+}
+.footer .contact-container .contact-item {
+  padding: 12px;
+}
+.footer .contact-container .contact-item a {
+  color: #f4a912;
 }
 
 * {

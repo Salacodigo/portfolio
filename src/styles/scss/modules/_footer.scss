@@ -1,3 +1,24 @@
-.danger{
-    background-color: red;
+.footer{
+    margin: 0;
+    width: 100%;
+    background-color: $dark-blue;
+    color: $burnt-yellow;
+    display: flex;
+    flex-direction: column;
+
+    .subtitle{
+        margin: 10px;
+    }
+    .contact-container{
+        display: flex;
+     
+        .contact-item{
+            padding: 12px;
+            
+            a{
+                color: $burnt-yellow;
+            }
+        }
+    }
+
 }
