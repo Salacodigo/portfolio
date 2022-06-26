@@ -18,6 +18,14 @@
     text-decoration: none;
 }
 
+.show{
+    display: flex !important;
+}
+
+.hide{
+    display: none !important;
+}
+
 @media (min-width:$mobile-size){
     
     .main{

@@ -16,16 +16,18 @@
                     <a href="#home">Home</a>
                 </div>
                 <div class="menu-box">
-                    <input type="checkbox" id="menu-drop">
+                    <input type="checkbox" id="menu-drop" onchange="displayMobileMenu(this)">
                     <label for="menu-drop" class="label-menu">
-                        <span class="menu-bar">
+                        <span class="menu-bar" id="menu-bars">
                             <i class="fas fa-bars"></i>
                         </span>
-                        <span class="menu-x">
+                        <span class="menu-x" id="menu-x">
                             <i class="fas fa-times"></i>
                         </span>
                     </label>
-                    <div class="list-container">
+                </div>    
+                <div>
+                    <div class="list-container" id="menu-list">
                         <a href="#aboutMe" class="list-item">About me</a>
                         <a href="#skills" class="list-item">Skills</a>
                         <a href="#projects" class="list-item">Personal Projects</a>
@@ -94,7 +96,7 @@
             <p class="p-container">
                 <br>I build web applications with easy maintainable code in order to help business operations. 
                 <br> I apply Scrum with teammates.
-                <br> As a team member, working in collaborative environments. 
+                <br> I enjoy working in collaborative environments. 
                 <br>Self-learning is a developed ability.
                 <br>Love to work in remotely.
             </p>
@@ -153,5 +155,7 @@
 
         </div>
     </footer>
+
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>

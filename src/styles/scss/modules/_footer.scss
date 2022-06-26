@@ -13,7 +13,9 @@
         display: flex;
      
         .contact-item{
+            text-align: center;
             padding: 12px;
+            width: 25%;
             
             a{
                 color: $burnt-yellow;

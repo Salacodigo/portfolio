@@ -1,10 +1,84 @@
 @media (min-width:$mobile-size){
-    
+
     .header{
-        border: $test;
         display: flex;
         width: 100%;
+        background-color: $dark-blue;
+        color: $burnt-yellow;
+        height: 40px;
         
+        .nav{
+            
+            width: 100%;
+            
+            .nav-container{
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+                
+                
+
+                .home-button{
+                    width: 50%;
+                    height: 100%;
+                    padding: 15px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: $burnt-yellow;
+                    }
+                    
+                }
+                
+                .menu-box{
+                    display: flex;
+                    width: 50%;
+                    height: 100%;
+                    padding: 15px;
+
+                    input{
+                        display: none;
+                    }
+                    .label-menu{
+                        right: 0;
+                        left: unset;
+                        display: flex;
+                        margin-left: calc(100% - 20px);
+
+                    
+                        .menu-bar{
+                            display: flex;
+                        }
+
+                        .menu-x{
+                            display: none;
+                        }
+                        
+
+                    }
+                }
+
+                .list-container{
+                    display: none;
+                    flex-direction: column;
+                    align-items: center;
+                    position: absolute;
+                    background-color: $dark-blue;
+                    top: 40px;
+                    left: 0;
+                    width: 100%;
+                    
+
+                    .list-item{
+                        color: $burnt-yellow;
+                        margin: 10px;
+                        padding: 15px 0px;
+                    }
+                    
+                }
+
+            }
+        }
         
 
     }
