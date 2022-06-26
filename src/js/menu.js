@@ -1,3 +1,7 @@
+import {
+    disableScroll,
+    enableScroll
+} from "./scroll.js"
 
 const menuBarsBtn = document.getElementById('menu-bars');
 const menuXBtn = document.getElementById('menu-x');
@@ -5,6 +9,7 @@ const menuList = document.getElementById('menu-list');
 
 
 function showMenuMobile(){
+    disableScroll();
     menuBarsBtn.classList.remove("show");
     menuBarsBtn.classList.add("hide");
     
@@ -16,6 +21,7 @@ function showMenuMobile(){
 }
 
 function hideMenuMobile(){
+    enableScroll();
     menuBarsBtn.classList.remove("hide");
     menuBarsBtn.classList.add("show");
     
