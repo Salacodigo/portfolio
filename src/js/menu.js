@@ -1,6 +1,7 @@
 import {
     disableScroll,
     enableScroll
+
 } from "./scroll.js"
 
 const menuBarsBtn = document.getElementById('menu-bars');
@@ -32,7 +33,14 @@ function hideMenuMobile(){
     menuList.classList.add("hide");
 }
 
+function navigateToSection(){
+    hideMenuMobile();
+}
+
+
 export{
     showMenuMobile,
-    hideMenuMobile
+    hideMenuMobile,
+    navigateToSection,
+    menuList
 }

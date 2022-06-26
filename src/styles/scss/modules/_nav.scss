@@ -68,6 +68,7 @@
                 height: 100vh;
                 background-color: $dark-blue-blur;
                 backdrop-filter: blur(30px);
+                -webkit-backdrop-filter: blur(30px);
                 
 
                 .list-item{

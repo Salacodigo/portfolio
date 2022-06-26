@@ -20,6 +20,7 @@
             width: 100%;
             padding: 25px 15px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -28,7 +29,10 @@
                 text-decoration: none;
                 color: $dark-blue;
                 max-width: 200px;
+
             }
+
+
 
             &~:hover{
                 cursor: pointer;

@@ -1,6 +1,8 @@
 import { 
     showMenuMobile,
-    hideMenuMobile
+    hideMenuMobile,
+    menuList,
+    navigateToSection
 
  } from './menu.js'
 
@@ -10,10 +12,15 @@ const checkboxMenuMobileBtn = document.getElementById('menu-drop');
 function addEventListeners(){
 
     document.addEventListener('DOMContentLoaded', () => {
-            checkboxMenuMobileBtn.addEventListener('click', () => { 
+        checkboxMenuMobileBtn.addEventListener('click', () => { 
                 displayMenuMobile(checkboxMenuMobileBtn);
             }
-        );
+            );
+        
+            menuList.addEventListener('click', () => {
+                navigateToSection();
+            })
+
     })
 }
 addEventListeners();

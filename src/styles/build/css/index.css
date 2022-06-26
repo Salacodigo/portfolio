@@ -55,6 +55,7 @@
   height: 100vh;
   background-color: rgba(20, 34, 61, 0.6);
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 .header .nav .nav-container .list-container .list-item {
   color: #f4a912;
@@ -129,7 +130,7 @@
   margin: 20px 0;
   background-color: #14223d;
   color: #f4a912;
-  width: 100vh;
+  width: 100vw;
 }
 .section-container .skills .subtitle {
   margin: 25px;
@@ -162,7 +163,7 @@
 }
 .section-container .skills .p-container {
   display: flex;
-  max-width: 270px;
+  max-width: 250px;
   justify-content: center;
   align-items: center;
   margin: 0px 25px 45px;
@@ -189,6 +190,7 @@
   width: 100%;
   padding: 25px 15px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -274,8 +276,6 @@
 }
 
 .main {
-  min-width: 320px;
-  max-width: 420px;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
