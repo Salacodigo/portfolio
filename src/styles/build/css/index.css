@@ -67,6 +67,9 @@
   justify-content: center;
   align-items: center;
 }
+.section-container .title {
+  color: #14223d;
+}
 .section-container .flags-container {
   display: flex;
   justify-content: space-evenly;
