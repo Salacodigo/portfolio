@@ -3,55 +3,60 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    .subtitle{
-        margin: 25px;
-    }
-}
-
-.skills{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
-    background-color: $dark-blue;
-    color: $burnt-yellow;
     width: 100%;
 
-    .skill-container-list{
+    .skills{
         display: flex;
-        flex-direction: row;
-        width: 400px;
-        
-        .card{
-            margin: 20px 15px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0;
+        background-color: $dark-blue;
+        color: $burnt-yellow;
+        width: 100vh;
+    
+        .subtitle{
+            margin: 25px;
+        }
+    
+        .skill-container-list{
+            display: flex;
+            flex-direction: row;
             width: 100%;
-            border: 0.5px solid $burnt-yellow;
-            border-radius: 5px;
-            padding: 20px;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-
-            .skills-title{
-                font-weight: 700;
-            }
-
-            .skills-list{
-                list-style: none;
-                flex-wrap: wrap;
-
-                li{
-                    margin: 5px 0px 14px;
+            max-width: 450px;
+            
+            .card{
+                margin: 20px 15px 0px;
+                width: 100%;
+                border: 0.5px solid $burnt-yellow;
+                border-radius: 5px;
+                padding: 20px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+    
+                .skills-title{
+                    font-weight: 700;
+                }
+    
+                .skills-list{
+                    list-style: none;
+                    flex-wrap: wrap;
+    
+                    li{
+                        margin: 5px 0px 14px;
+                    }
                 }
             }
         }
-    }
-    .p-container{
-        display: flex;
-        width: 270px;
-        justify-content: center;
-        align-items: center;
-        margin: 0px 25px 45px;
-        line-height: 2rem;
+        .p-container{
+            display: flex;
+            max-width: 270px;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 25px 45px;
+            line-height: 2rem;
+        }
     }
 }
+

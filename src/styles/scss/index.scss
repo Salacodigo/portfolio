@@ -26,28 +26,27 @@
     display: none !important;
 }
 
-@media (min-width:$mobile-size){
-    
-    .main{
-        min-width: $mobile-size;
-        max-width: $mobile-medium-size;
-        background-color: $white;
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        
-    }
-    
-    .body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: $font-Lato;
 
-        .title{
-            display: flex;
-        }
-    }
 
+.main{
+    min-width: $mobile-size;
+    max-width: $mobile-medium-size;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
 }
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-Lato;
+
+    .title{
+        display: flex;
+    }
+}
+

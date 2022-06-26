@@ -7,12 +7,12 @@
     }   
 
     .certification-container{
-        color: $dark-blue;
         margin: 15px;
         display: grid;
         grid-template-columns: repeat(2, 1fr) ;
         column-gap: 15px;
         row-gap: 15px;
+        color: $dark-blue;
         
         .certification-card{
             border: $card-border;
@@ -23,7 +23,6 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-
 
             a{
                 text-decoration: none;

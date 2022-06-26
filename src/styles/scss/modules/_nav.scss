@@ -1,85 +1,85 @@
-@media (min-width:$mobile-size){
+.header{
+    display: flex;
+    width: 100%;
+    background-color: $dark-blue;
+    color: $burnt-yellow;
+    height: 2.5rem;
 
-    .header{
-        display: flex;
-        width: 100%;
-        background-color: $dark-blue;
-        color: $burnt-yellow;
-        height: 2.5rem;
+    
+    .nav{
         
-        .nav{
+        width: 100%;
+        
+        .nav-container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
             
-            width: 100%;
             
-            .nav-container{
-                display: flex;
-                flex-direction: row;
-                height: 100%;
-                
-                
 
-                .home-button{
-                    width: 50%;
-                    height: 100%;
-                    padding: 0.5rem 1rem;
-                    
-                    a{
-                        text-decoration: none;
-                        color: $burnt-yellow;
-                    }
-                    
+            .home-button{
+                width: 50%;
+                height: 100%;
+                padding: 0.5rem 1rem;
+                
+                a{
+                    text-decoration: none;
+                    color: $burnt-yellow;
                 }
                 
-                .menu-box{
-                    display: flex;
-                    width: 50%;
-                    height: 100%;
-                    padding: 15px;
+            }
+            
+            .menu-box{
+                display: flex;
+                width: 50%;
+                height: 100%;
+                padding: 15px;
 
-                    input{
+                input{
+                    display: none;
+                }
+                .label-menu{
+                    right: 0;
+                    left: unset;
+                    display: flex;
+                    margin-left: calc(100% - 20px);
+
+                
+                    .menu-bar{
+                        display: flex;
+                    }
+
+                    .menu-x{
                         display: none;
                     }
-                    .label-menu{
-                        right: 0;
-                        left: unset;
-                        display: flex;
-                        margin-left: calc(100% - 20px);
-
                     
-                        .menu-bar{
-                            display: flex;
-                        }
 
-                        .menu-x{
-                            display: none;
-                        }
-                        
-
-                    }
                 }
-
-                .list-container{
-                    display: none;
-                    flex-direction: column;
-                    align-items: center;
-                    position: absolute;
-                    background-color: $dark-blue;
-                    top: 40px;
-                    left: 0;
-                    width: 100%;
-                    
-
-                    .list-item{
-                        color: $burnt-yellow;
-                        margin: 10px;
-                        padding: 15px 0px;
-                    }
-                    
-                }
-
             }
-        }
-        
 
+            .list-container{
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 40px;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                background-color: $dark-blue-blur;
+                backdrop-filter: blur(30px);
+                
+
+                .list-item{
+                    color: $burnt-yellow;
+                    margin: 10px;
+                    padding: 15px 0px;
+                }
+                
+            }
+
+        }
     }
+    
+
 }
