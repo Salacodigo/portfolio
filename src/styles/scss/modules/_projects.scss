@@ -15,13 +15,19 @@
 
 
         .project-card{
-            border: $test;
+            border: $card-border;
             height: 100px;
-
+            width: 100%;
+            padding: 25px 15px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
+
+            a{
+                text-decoration: none;
+                color: $dark-blue;
+            }
 
             &~:hover{
                 cursor: pointer;

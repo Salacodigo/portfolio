@@ -1,50 +1,63 @@
 
 .section-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    .title{
-        color: $dark-blue;
-    }
-    
-    
-    .flags-container{
+    .about-container{
         display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        margin: 20px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
-        
-        
-        .img-container{
-            object-fit: cover;
-            width: 80px;
+        .title{
+            color: $dark-blue;
+            font-size: 2rem;
+            margin: 0.5rem;
+        }
+        .description-pharagraph{
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
+            line-height: 2rem;
+        }   
         
-            
-            .EEUUFlag{
-                width: 100%;
-            }
-            .ColombiaFlag{
-                width: 100%;
-            }
-        }
-    }  
-
-    .figure-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        object-fit: cover;
-        width: 180px;
         
-        .profile-photo{
+        .flags-container{
+            display: flex;
+            justify-content: space-evenly;
             width: 100%;
-            border-radius: 100px;
+            margin: 20px 0px;
+            
+            
+            
+            .img-container{
+                object-fit: cover;
+                width: 80px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                
+                .EEUUFlag{
+                    width: 100%;
+                }
+                .ColombiaFlag{
+                    width: 100%;
+                }
+            }
+        }  
+        
+        .figure-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            object-fit: cover;
+            width: 180px;
+                
+            .profile-photo{
+                width: 100%;
+                border-radius: 100px;
+            }
         }
     }
 }

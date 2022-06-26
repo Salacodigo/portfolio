@@ -5,7 +5,7 @@
     width: 100%;
     background-color: #14223d;
     color: #f4a912;
-    height: 40px;
+    height: 2.5rem;
   }
   .header .nav {
     width: 100%;
@@ -18,7 +18,7 @@
   .header .nav .nav-container .home-button {
     width: 50%;
     height: 100%;
-    padding: 15px;
+    padding: 0.5rem 1rem;
   }
   .header .nav .nav-container .home-button a {
     text-decoration: none;
@@ -63,40 +63,52 @@
 }
 .section-container {
   display: flex;
+}
+.section-container .about-container {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.section-container .title {
+.section-container .about-container .title {
   color: #14223d;
+  font-size: 2rem;
+  margin: 0.5rem;
 }
-.section-container .flags-container {
+.section-container .about-container .description-pharagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+}
+.section-container .about-container .flags-container {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   margin: 20px 0px;
 }
-.section-container .flags-container .img-container {
+.section-container .about-container .flags-container .img-container {
   object-fit: cover;
   width: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.section-container .flags-container .img-container .EEUUFlag {
+.section-container .about-container .flags-container .img-container .EEUUFlag {
   width: 100%;
 }
-.section-container .flags-container .img-container .ColombiaFlag {
+.section-container .about-container .flags-container .img-container .ColombiaFlag {
   width: 100%;
 }
-.section-container .figure-container {
+.section-container .about-container .figure-container {
   display: flex;
   justify-content: center;
   align-items: center;
   object-fit: cover;
   width: 180px;
 }
-.section-container .figure-container .profile-photo {
+.section-container .about-container .figure-container .profile-photo {
   width: 100%;
   border-radius: 100px;
 }
@@ -115,17 +127,24 @@
   display: flex;
   flex-direction: column;
   margin: 20px 0;
+  background-color: #14223d;
+  color: #f4a912;
+  width: 100%;
 }
 .skills .skill-container-list {
   display: flex;
   flex-direction: row;
+  width: 400px;
 }
 .skills .skill-container-list .card {
-  margin: 20px 10px;
-  width: 50%;
-  border: 0.5px solid #14223d;
+  margin: 20px 15px 0px;
+  width: 100%;
+  border: 0.5px solid #f4a912;
   border-radius: 5px;
-  padding: 20px 10px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .skills .skill-container-list .card .skills-title {
   font-weight: 700;
@@ -138,8 +157,12 @@
   margin: 5px 0px 14px;
 }
 .skills .p-container {
-  margin: 0px 25px 10px;
-  line-height: 1.5rem;
+  display: flex;
+  width: 270px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 25px 45px;
+  line-height: 2rem;
 }
 
 .section-container {
@@ -157,21 +180,32 @@
   row-gap: 15px;
 }
 .section-container .certification-container .project-card {
-  border: 1px solid red;
+  border: 1px solid #14223d;
   height: 100px;
+  width: 100%;
+  padding: 25px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+.section-container .certification-container .project-card a {
+  text-decoration: none;
+  color: #14223d;
+}
 .section-container .certification-container .project-card ~ :hover {
   cursor: pointer;
 }
 
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
 .section-container .subtitle {
   margin: 25px;
 }
 .section-container .certification-container {
+  color: #14223d;
   margin: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -179,12 +213,18 @@
   row-gap: 15px;
 }
 .section-container .certification-container .certification-card {
-  border: 1px solid red;
+  border: 1px solid #14223d;
   height: 100px;
+  width: 100%;
+  padding: 25px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.section-container .certification-container .certification-card a {
+  text-decoration: none;
+  color: #14223d;
 }
 
 .footer {
@@ -194,12 +234,15 @@
   color: #f4a912;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .footer .subtitle {
   margin: 10px;
 }
 .footer .contact-container {
   display: flex;
+  width: 100%;
 }
 .footer .contact-container .contact-item {
   text-align: center;

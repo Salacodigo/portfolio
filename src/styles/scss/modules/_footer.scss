@@ -5,12 +5,15 @@
     color: $burnt-yellow;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .subtitle{
         margin: 10px;
     }
     .contact-container{
         display: flex;
+        width: 100%;
      
         .contact-item{
             text-align: center;
